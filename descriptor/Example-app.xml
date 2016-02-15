@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<application xmlns="http://ns.adobe.com/air/application/21.0">
+    <id>ru.flashpress.test</id>
+    <filename>FPiCloud</filename>
+    <name>FPiCloud</name>
+    <versionNumber>0.0.0</versionNumber>
+
+    <extensions>
+        <extensionID>ru.flashpress.FPiCloud</extensionID>
+    </extensions>
+
+    <initialWindow>
+        <content>SWF file name is set automatically at compile time</content>
+        <visible>true</visible>
+        <autoOrients>true</autoOrients>
+        <fullScreen>true</fullScreen>
+    </initialWindow>
+    <iPhone>
+        <InfoAdditions>
+            <![CDATA[
+            ]]>
+        </InfoAdditions>
+        <Entitlements>
+        <![CDATA[
+            <key>com.apple.developer.ubiquity-container-identifiers</key>
+            <array>
+                <string><TEAM_ID>.<CONTAINER_ID></string>
+            </array>
+            <key>com.apple.developer.ubiquity-kvstore-identifier</key>
+            <string><TEAM_ID>.<CONTAINER_ID></string>
+        ]]>
+    </Entitlements>
+        <requestedDisplayResolution>high</requestedDisplayResolution>
+    </iPhone>
+</application>
