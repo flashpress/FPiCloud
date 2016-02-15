@@ -20,5 +20,5 @@
 </iPhone>
 ```
 
-# Help
-Visit the [wiki page](https://github.com/flashpress/FPiCloud/wiki) to get help.
+# Get TEAM_ID
+![TeamID](/screenshots/TeamID.png)
